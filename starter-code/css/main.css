@@ -7,4 +7,64 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: background-image: url("../images/bgtile.png");
+}
+h4 {
+	font:normal;
+}
+#container {
+	width: 1300px;
+	height:275px;
+	background-color: #06365f;
+	font:inherit;
+}
+#right-box{
+	background: url("../images/frame.png");
+	background-repeat:no-repeat;
+	width: 650px;
+	float:right;
+	margin-right:90px;
+	margin-top:100px;
+	position: relative;
+	font:inherit;
+
+}
+
+#left-box {
+	float: left;
+    margin-left: 90px;
+    margin-top: 100px;
+    width:350px;
+    font:inherit;
+}
+
+ #footer{
+ 	display: inline;
+    font: inherit;
+    position: absolute;
+    top: 660px;
+    right: 279px;
+	color: #1c5380;
+
+ }
+ #copywrite {
+	color:grey;
+	font:inherit;
+}
+.inline {
+	display: inline;
+}
+#Home{
+	position: absolute;
+    right: 250px;
+    top: 35px;
+    font:inherit;
+}
+#Log-in{
+	position: absolute;
+    right: 189px;
+    top: 28px;
+    color: #1c5380;
+    background-color: #C4D0D9;
+    font:inherit;
 }
