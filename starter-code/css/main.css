@@ -6,25 +6,30 @@ light blue: #1c5380
 
 #left-col {
 	float: left;
-	width:200px;
+	width:15%;
 	padding-right: 30px;
 	padding-left: 30px;
 }
 
 #right-col {
 	float: right;
-	width: 500px;
+	width: 55%;
+}
+
+#brand-log {
+	top: 20%;
 }
 
 #frame {
 	position: absolute;
+	margin-top: 10%;
 }
 
 #float-text {
 	position: absolute;
-	top: 220px;
-	margin-left: 300px;
-	right: 10px;
+	top: 38%;
+	margin-left: 33%;
+	margin-right: 10%;
 	width: 450px;
 }
 
@@ -51,9 +56,8 @@ body {
   background-color: white;
   background-repeat: repeat-x;
   padding-top: 15%;
-  width: 960px;
+  width: 900px;
   height: 500px;
-  font-size: 12px;
   position: absolute;
 }
 
