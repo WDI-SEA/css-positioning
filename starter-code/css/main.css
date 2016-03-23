@@ -42,17 +42,26 @@ body {
 }
 
 .body-section-content {
-  margin:-18em 0px 0px 33em;
+  margin:-18em 20em 0px 33em;
   background-image: url("images/frame.png");
   background-repeat: no-repeat;
 }
 
-.body-section-content-h2 {
-  margin-right: 20em;
+.mobile-store-icons {
+ margin-top: 25px;
 }
 
+.footer {
+  text-align: center;
+  margin-top: 5.5em;
+  margin-right: 7em;
+}
 
 .footer-nav-a {
-  float: clear
-  ;
+  text-decoration: none;
+  padding:8px;
+}
+
+.copyright {
+  float: right;
 }
