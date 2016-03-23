@@ -62,7 +62,8 @@ body {
   background-repeat: repeat-x;
   padding-top: 15%;
   width: 900px;
-  height: 500px;
+  min-height: 250px;
+  height:500px;
   position: relative;
 }
 
@@ -70,9 +71,9 @@ body {
 	float:left;
 	color: #1c5380;
 	margin: 0 auto;
-	padding-top: 480px;
+	padding-top: 500px;
 	padding-left: 10%;
 	text-transform: uppercase;
 	font-weight: bold;
-	word-spacing: 10px;
+	word-spacing: 10px
 }
