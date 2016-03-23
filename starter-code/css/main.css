@@ -3,6 +3,7 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -12,14 +13,16 @@ body {
 	width: 1300px;
 	height:275px;
 	background-color: #06365f;
+	font:inherit;
 }
 #right-box{
-	background-image: images/frame.png;
+	background: url(images/frame.png);
 	width: 650px;
 	float:right;
 	margin-right:90px;
 	margin-top:100px;
 	position: relative;
+	font:inherit;
 }
 
 #left-box {
@@ -27,6 +30,7 @@ body {
     margin-left: 90px;
     margin-top: 100px;
     width:350px;
+    font:inherit;
 }
 
 #footer{
@@ -36,24 +40,28 @@ body {
     padding-left: 341px;
     padding-top: 100px;
     display:inline;
-    position:absolute;
-  	top: 500px;
-    left: 50px;
+    /*position:absolute;*/
+  	/*top: 500px;
+    left: 50px;*/
+    /*float:both;*/
+    font:inherit;
 }
 #copywrite {
 	color:grey;
+	font:inherit;
 }
  #footer{
- 	Display:inline;
-
+ 	display:inline;
+	font:inherit;
  }
 .inline {
-display: inline;
+	display: inline;
 }
 #Home{
 	position: absolute;
     right: 250px;
     top: 35px;
+    font:inherit;
 }
 #Log-in{
 	position: absolute;
@@ -61,4 +69,5 @@ display: inline;
     top: 37px;
     color: #1c5380;
     background-color: #C4D0D9;
+    font:inherit;
 }
