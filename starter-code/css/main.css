@@ -54,6 +54,10 @@ a:link , a:visited {
   float: right;
 }
 
+.description-text-h2 {
+  color: #06365f;
+}
+
 .phone-img {
   display: inline-block;
   float: left;
