@@ -4,9 +4,9 @@ dark blue: #06365f
 light blue: #1c5380
 */
 #container {
-	width: 1000px;
-	background-color: #06365f;
-	margin: 0 auto;
+	width: 1300px;
+	height:500px;
+	background-color: #1c5380;
 }
 #right-box{
 	background-image: images/frame.png;
@@ -18,6 +18,9 @@ light blue: #1c5380
 #left-box {
 	float:left;
 	margin-left:10px;
+}
+#footer{
+	font-color: #1c5380;
 }
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
