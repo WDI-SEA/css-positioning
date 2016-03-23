@@ -17,20 +17,18 @@ light blue: #1c5380
 }
 
 #brand-log {
-	top: 20%;
+	padding-top: 20%;
 }
 
 #frame {
-	position: absolute;
-	margin-top: 10%;
+	position: fixed;
 }
 
 #float-text {
 	position: absolute;
-	top: 38%;
-	margin-left: 33%;
+	margin-left: 5%;
 	margin-right: 10%;
-	width: 450px;
+	width: 430px;
 }
 
 .button {
