@@ -3,6 +3,101 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+a {
+	color: #1c5380;
+	text-decoration: none;
+}
+
+h3 {
+	color: #06365f;
+}
+
+#container {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	margin-top: -120px;
+	/*background: url("../images/bgtile.png");*/
+	/*background-position: top;*/
+}	
+
+#backgroundstrip {
+	background: url("../images/bgtile.png");
+	height: 260px;
+}
+
+#left-col {
+	float: left;
+	width: 41%;
+}
+
+#right-col {
+	float: left;
+	width: 57%;
+}
+
+#footer {
+	clear: both;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+#footer ul li {
+	text-decoration: none;
+	display: inline;
+	padding-right: 20px;
+}
+
+#textboxbackground {
+	background: #ffffff;
+	background: url("../images/frame.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 20px 40px 0px 40px;
+}
+
+#right-header {
+	display: inline;
+}
+
+#instalogo {
+	display: inline;
+}
+
+#button {
+	background-color: #1c5380;
+	background: url("../images/home.png");
+	background-repeat: no-repeat;
+	background-position: 5px 9px;
+	display: inline;
+	float: right;
+	color: #ffffff;
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold; 
+	width: 75px;
+	height: 35px;
+	border: 1px solid #06365f;
+	border-radius: 3px;
+	margin: 18px 10px 0px 0px;
+	padding: 8px 5px 0px 0px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
