@@ -4,33 +4,38 @@ dark blue: #06365f
 light blue: #1c5380
 */
 #cover {
-	position: relative;
+	position: absolute;
 	z-index: -1;
-	width: 100%;
-	height: 50%
 	margin: 10px auto;
 	background-color: #1c5380;
-	background-size: cover;
+	height: 400;
+	width: 1200;
+	color: #1c5380;
 }
 #home {
 	position: absolute;
-	top: 100px;
-	right: 390;
+	top: -360px;
+	left: 280px;
 	border-width: 50px;
 	background: #06365f;
 	border-height: 30px;
 	padding: 2px 3px 2px 3px;
 	color: white;
-	font-size: 10px;
+	font: 300 10px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	text-align: center;
+	border-radius: 3px;
+	width: 70px;
 }
 h2 {
-	font: 300 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 300 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	color: #06365f;
 	padding-top: 180;
 	padding-left: 500;
+	position: relative;
+	top: 110;
+	left: -80;
 }
 #frame {
 	position: absolute;
@@ -41,6 +46,7 @@ h2 {
 #phones {
 	position: absolute;
 	float: left;
+	left: 40;
 }
 #words {
 	width: 450px;
@@ -50,6 +56,9 @@ h2 {
   	font-weight: normal;
   	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   	color: black;
+  	position: relative;
+  	top: 10;
+  	left: 0;
 
 }
 
@@ -62,5 +71,11 @@ h2 {
 	position: absolute;
 	top: 600;
 	left:450;
+}
+
+#brand {
+	position: absolute;
+	top: 220;
+	left: 400;
 }
 
