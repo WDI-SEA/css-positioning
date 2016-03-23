@@ -11,9 +11,6 @@ a {
 h3 {
 	color: #06365f;
 }
-small {
-	font-size: 10px;
-}
 
 #container {
 	position: relative;
@@ -41,6 +38,7 @@ small {
 
 #footer {
 	clear: both;
+	font-size: 12px;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
