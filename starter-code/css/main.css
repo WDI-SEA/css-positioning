@@ -7,13 +7,11 @@ light blue: #1c5380
 
 *{
 	margin: 0;
-	padding: 0;
-	border: 1px solid black;
 }
 
 #left-col {
 	float: left;
-	width:15%;
+	width:320px;
 	position: absolute;
 }
 
@@ -29,7 +27,7 @@ light blue: #1c5380
 }
 
 #frame {
-	position: fixed;
+	position: absolute;
 }
 
 #float-text {
@@ -46,11 +44,9 @@ light blue: #1c5380
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     border-radius: 3px;
-
+    float:right;
 }
 
 h2 {
@@ -62,7 +58,6 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 auto;
   background: url("../../starter-code/bgtile.png");
-  background-color: white;
   background-repeat: repeat-x;
   padding-top: 15%;
   width: 900px;
@@ -75,6 +70,7 @@ body {
 	color: #1c5380;
 	margin: 0 auto;
 	padding-top: 450px;
+	padding-left: 10%;
 	text-transform: uppercase;
 	font-weight: bold;
 }
