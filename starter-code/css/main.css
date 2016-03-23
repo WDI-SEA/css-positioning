@@ -12,8 +12,17 @@ body {
 h3 {
 	color: #06365f;
 }
-
+ul {
+	list-style-type: none;
+}
+li {
+	float: left;
+	color: #1c5380;
+	margin: 0px 10px 20px 10px;
+	font-size: 14px;
+}
 #container {
+	margin: 0 auto;
 	position: relative;
 	padding: 50px 100px;
 }
@@ -75,4 +84,15 @@ h3 {
 #content-text {
 	padding: 10px 20px 0px 30px;
 	width: 440px;
+}
+#apps img {
+	margin: 20px 0px 0px 20px;
+	display: inline-block;
+}
+#footer {
+	padding: 30px;
+	clear: both;
+}
+#copyright {
+	color: gray;
 }
