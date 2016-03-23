@@ -5,15 +5,31 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+ 	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	margin: 0;
 
-header {
 	background: url("../images/bgtile.png");
-	height: 500px;
+	background-repeat:repeat-x;
+	float:left;
 }
 
-body {
-	
+#left_col {
+	width: 30%;
+	padding: 50px;
+	float: left;
+}
+
+#right_col {
+	width: 50%;
+	padding: 50px;
+	float: right;
+}
+
+#right_text {
+	background: url("../images/frame.png");
+	background-size: 100% 100%;
+	padding: 10px;
+}
+
+#img_phones {
 }
