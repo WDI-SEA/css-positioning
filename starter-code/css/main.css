@@ -20,12 +20,14 @@ h4 {
 }
 #right-box{
 	background: url("../images/frame.png");
+	background-repeat:no-repeat;
 	width: 650px;
 	float:right;
 	margin-right:90px;
 	margin-top:100px;
 	position: relative;
 	font:inherit;
+
 }
 
 #left-box {
