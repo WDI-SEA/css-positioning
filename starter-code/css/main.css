@@ -13,53 +13,66 @@ body {
 	position: absolute;
 } */
 
-.float {
-	float: left;
-}
-
 #container {
 	position: relative;
 	padding: 50px 100px;
 }
 #left-column {
-
+	float: left;
 	width: 30%;
 	height: 100%;
 }
 #right-column {
-
+	float: right;
+	height: 100%;
+	width: 70%;
+}
+#right-column-container {
+	float: left;
 }
 #top-half {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	height: 300px;
+	height: 240px;
 	width: 100%;
 	background: linear-gradient(#1c5380, #06365f);	
 	z-index: -1;
 }
 #phones {
-	/*top: 100px;
-	left: 100px;*/
+
 }
 #logo {
-	top: 110px;
-	left: 475px;
+	float: left;
+	margin: 10px 30px 10px 50px;
 }
 #login {
 	background: linear-gradient(#1c5380, #06365f);
-	position: absolute;
 	height: 40px;
-	width: 150px;
-	top: 130px;
-	left: 900px;
+	width: 100px;
+	float: right;
+	margin: 30px 5px 0px 0px;
 	border-radius: 5px;
+	text-align: left;
+	color: #ededed;
 }
 #login img {
-	margin: 10px 15px 10px 10px;
+	margin: 10px 10px 10px 10px;
 }
 #frame {
 	position: absolute;
-	top: 200px;
-	left: 475px;
+	float: left;
+	top: 10px;
+	left: 0;
+	z-index: -1;
+}
+#content {
+	clear: both;
+	width:500px;
+	margin: 0px 0px 20px 50px;
+	position: relative;
+}
+#content-text {
+	padding: 10px 20px 0px 30px;
+	width: 440px;
 }
