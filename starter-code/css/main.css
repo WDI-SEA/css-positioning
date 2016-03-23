@@ -69,8 +69,9 @@ body {
 	float:left;
 	color: #1c5380;
 	margin: 0 auto;
-	padding-top: 450px;
+	padding-top: 480px;
 	padding-left: 10%;
 	text-transform: uppercase;
 	font-weight: bold;
+	word-spacing: 10px;
 }
