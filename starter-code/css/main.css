@@ -8,3 +8,119 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.box {
+	position: relative;
+	height: 800px;
+	width: 1000px;
+}
+.blue_container {
+	background-color: #1c5380;
+	height: 400px;
+	width: 1000px;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+#insta_Logo {
+	position: relative;
+	left: 450px;
+	top: 200px;
+	display: inline-block;
+
+}
+
+#homebutton {
+	position: relative;
+	left: 500px;
+	top: 170px;
+	display: inline-block;
+	color: #1c5380;
+	background-color: #1c5380;
+}
+
+button {
+	
+	color: white;
+	background-color: #1c5380;
+	border-radius: 3px;
+	/*border: 1px solid #1c5380;*/
+
+}
+
+
+h3 {
+	color: #06365f;
+}
+
+#text_background {
+	position: relative;
+	left: 450px;
+	top: -100px;
+	z-index: 1;
+}
+
+.text {
+	position: absolute;
+	left: 500px;
+	top: 350px;
+	bottom: -600px;
+	height: 400px;
+	width:  400px;
+	margin: 0 auto;
+	z-index:2;
+}
+
+#iphone {
+	position: relative;
+	left: 80px;
+	top: -500px;
+
+}
+
+.table {
+	margin: 0 auto;
+	display: flex;
+}
+.link1 {
+	position: absolute;
+	float: left;
+	top: 650px;
+	left: 500px;
+}
+.link2 {
+	position: absolute;
+	float: left;
+	top: 650px;
+	left: 675px
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+  /*  justify-content: center;*/
+    position: relative;
+	bottom: 450px;
+	left: 250px
+
+}
+li {
+	float: left;
+	margin: 10px;
+	color: #06365f;
+	/*text-align: center;*/
+	font-weight: bold;
+}
+
+.footer {
+	position: absolute;
+	display: inline;
+	/*float: right;*/
+	top: 767px;
+	left: 850px;
+	color: gray;
+
+	
+}
