@@ -10,15 +10,17 @@ light blue: #1c5380
 }
 #right-box{
 	background-image: images/frame.png;
-	width: 450px;
+	width: 650px;
 	float:right;
-	margin-right:10px;
+	margin-right:90px;
+	margin-top:100px;
 }
 
 #left-box {
 	float: left;
     margin-left: 90px;
     margin-top: 100px;
+    width:350px;
 }
 #footer{
 	font-color: #1c5380;
