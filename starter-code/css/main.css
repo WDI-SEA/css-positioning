@@ -4,7 +4,138 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
+
+footer {
+	text-align: center;
+	clear: both;
+	color: #1c5380;
+	text-decoration: none;
+	padding: 5%;
+}
+
+footer strong {
+	padding-right: 1%;
+	font-size: 13px;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: #1c5380;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: #1c5380;
+}
+
+#copyright {
+	color: gray;
+}
+
+#img-left {
+	float: left;
+	margin-left: 7.5%;
+	margin-top: 10%;
+	width: 35%;
+}
+
+#login-button {
+	background-color: #1c5380;
+	background-image:
+    linear-gradient(
+      #1c5380, #06365f
+    );
+	width: 100px;
+	height: 30px;
+	margin-right: 2.5%;
+	margin-top: 4%;
+	border: 2px solid #1c5380;
+	border-radius: 5%;
+	text-align: center;
+	float: right;
+	padding-top: 1%;
+}
+
+#login-button a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+#login-button a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+#logo-right {
+	width: 45%;
+	display: inline-block;
+	padding-left: 2.5%;
+	margin-top: 10%;
+}
+
+#main-body {
+	float: right;
+	width: 45%;
+	background-image: url("../images/frame.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-right: 10%;
+}
+
+#main-body strong {
+	color: #06365f;
+}
+
+#main-body h1 {
+	color: #06365f;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#main-body p {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#photo1 {
+	padding-left: 10%;
+	margin-top: 3%;
+}
+
+#photo2 {
+	padding-left: 2.5%;
+	margin-top: 3%;
+}
+
+#background-color {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	height: 50%;
+	width: 100%;
+	content:"";
+	background-color: #1c5380;
+	background-image:
+    linear-gradient(
+      #1c5380, #06365f
+    );
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
