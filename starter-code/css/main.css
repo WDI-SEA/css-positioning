@@ -38,7 +38,7 @@ li {
 }
 
 .badge {
-	margin-top: 50px;
+	margin:50px 20px 0 0;
 }
 
 #copy {
@@ -46,6 +46,10 @@ li {
 	padding: 5px;
 	color: rgba(179, 179, 179, 1);
 	font-weight: bold;
+}
+
+#container {
+	margin: 50px;
 }
 
 #left_col {
