@@ -11,7 +11,7 @@ body {
 #container {
 	width: 1300px;
 	height:275px;
-	background-color: #1c5380;
+	background-color: #06365f;
 }
 #right-box{
 	background-image: images/frame.png;
@@ -50,9 +50,14 @@ body {
 .inline {
 display: inline;
 }
-.Home{
-	position:absolute;
-	top: 40px;
+#Home{
+	position: absolute;
     right: 250px;
-    width:20px;
+    top: 35px;
+}
+#Log-in{
+	position: absolute;
+    right: 180px;
+    top: 20px;
+    color:#1c5380;
 }
