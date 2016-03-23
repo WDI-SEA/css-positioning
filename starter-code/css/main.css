@@ -5,7 +5,7 @@ light blue: #1c5380
 */
 #container {
 	width: 1300px;
-	height:500px;
+	height:275px;
 	background-color: #1c5380;
 }
 #right-box{
@@ -23,11 +23,21 @@ light blue: #1c5380
     width:350px;
 }
 #footer{
-	font-color: #1c5380;
-	clear:both;
-	background-color: #f7f7f7;
-	height:600px;
+	color: #1c5380;
+    clear: left;
+    background-color: #f7f7f7;
+    height: 600px;
+    padding-left: 341px;
+    padding-top: 10px;
+    display:inline;
+}
+ .footer{
+ 	Display:inline;
 
+ }
+.copywrite{
+	color:grey;
+}
 }
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
