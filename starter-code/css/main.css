@@ -9,7 +9,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
-
+/* HEADER STYLING */
 .header {
   background: -webkit-linear-gradient(#6D90AD, #1c5380);
   /*background-color: #1c5380;*/
@@ -26,7 +26,7 @@ body {
 }
 
 .button {
-  background-color: #1c5380;
+  background-color: #6D90AD;
   margin: 3.2em 0px 0px 12%;
   border-color: #06365f;
   border-radius: 10%;
