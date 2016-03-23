@@ -57,7 +57,7 @@ h2 {
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 auto;
-  background: url("../../starter-code/bgtile.png");
+  background-image: url("../../starter-code/bgtile.png");
   background-repeat: repeat-x;
   padding-top: 15%;
   width: 900px;
