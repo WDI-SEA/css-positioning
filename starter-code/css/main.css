@@ -38,13 +38,17 @@ body {
 }
 
 .content-frame {
-
+  margin: -75px 0px 0px 45px;
 }
 
 .body-section-content {
-  margin:40px 5px 0px 31em;
+  margin:-18em 0px 0px 33em;
   background-image: url("images/frame.png");
   background-repeat: no-repeat;
+}
+
+.body-section-content-h2 {
+  margin-right: 20em;
 }
 
 
