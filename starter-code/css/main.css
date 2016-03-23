@@ -10,5 +10,45 @@ body {
 }
 
 .header {
-  background: blue;
+  background-color: blue;
+  height: 270px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.button{
+  padding: 2px;
+  background-color: white;
+}
+.brand-section {
+  margin-left:38%;
+  padding: 5em .7em;
+}
+
+.description-text {
+  float: right;
+}
+
+.phone-img {
+  display: inline-block;
+  float: left;
+  margin-left: 10%;
+  margin-top: -11.25em;
+}
+
+.content-frame {
+
+}
+
+.body-section-content {
+  margin:40px 5px 0px 31em;
+  background-image: url("images/frame.png");
+  background-repeat: no-repeat;
+}
+
+
+.footer-nav-a {
+  float: clear
+  ;
 }
