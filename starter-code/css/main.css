@@ -6,19 +6,22 @@ light blue: #1c5380
 
 #left-col {
 	float: left;
+	width:200px;
 }
 
 #right-col {
 	float: right;
+	width: 500px;
 }
 
-#brand-log{
-	float: right;
+#frame {
+	position: relative;
 }
 
-#text-box {
-	background-color: white;
+#float-text {
+	position: absolute;
 }
+
 
 h2 {
 	color: 06365f;
@@ -31,6 +34,7 @@ body {
   background: url("../../starter-code/bgtile.png");
   background-color: white;
   background-repeat: repeat-x;
+  padding-top: 15%;
 }
 
 #footer {
