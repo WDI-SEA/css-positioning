@@ -28,6 +28,7 @@ body {
     margin-top: 100px;
     width:350px;
 }
+
 #footer{
 	color: #1c5380;
     clear: left;
@@ -47,6 +48,10 @@ body {
 
  }
 .inline {
-	display:inline;
+display: inline;
 }
-
+.log-in{
+	position:absolute;
+	top: 40px;
+    right: 250px;
+}
