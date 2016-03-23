@@ -9,6 +9,9 @@ body {
   margin: 0;
   background-color: #06365;
 }
+h4 {
+	font:normal;
+}
 #container {
 	width: 1300px;
 	height:275px;
