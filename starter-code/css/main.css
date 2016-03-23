@@ -3,8 +3,107 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@import url(https://fonts.googleapis.com/css?family=Oswald);
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+
+/* HEADER STYLING */
+
+.header {
+  background: -webkit-linear-gradient(#6D90AD, #1c5380);
+  height: 270px;
+}
+
+
+/* INSTAGRAM LOGO AND LOGIN BUTTON */
+
+.instagram-logo {
+  float: left;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.button {
+  background-color: #6D90AD;
+  margin: 3.2em 0px 0px 12%;
+  border-color: #06365f;
+  border-radius: 10%;
+  padding: 0px;
+}
+
+a:link , a:visited {
+  text-decoration: none;
+}
+
+.button-text {
+  margin: 5px 10px;
+  color: white;
+  display: inline-block;
+}
+
+.brand-section {
+  margin-left:38%;
+  padding: 5em .7em;
+}
+
+
+/* MAIN CONTENT AREA */
+
+.description-text {
+  float: right;
+}
+
+.description-text-h2 {
+  color: #06365f;
+}
+
+.phone-img {
+  display: inline-block;
+  float: left;
+  margin-left: 10%;
+  margin-top: -11.25em;
+}
+
+.content-frame {
+  margin: -75px 0px 0px 45px;
+}
+
+.body-section-content {
+  margin:-18em 20em 0px 33em;
+  background-image: url("images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.mobile-store-icons {
+ margin-top: 25px;
+ padding: 5px 15px;
+}
+
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  margin-top: 5.5em;
+  margin-right: 7em;
+}
+
+.footer-nav-a {
+  text-decoration: none;
+  font-family: Oswald;
+  padding:8px;
+  color: #1c5380;
+}
+
+.copyright {
+  font-family: Oswald;
+  color: gray;
+  margin: -1.6em 95px;
+  padding-left: 4px;
+  float: right;
+  display: inline-block;
 }
