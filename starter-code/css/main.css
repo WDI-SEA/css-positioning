@@ -3,6 +3,11 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+
+h3 {
+	color: #06365f;
+}
+
 #container {
 	position: relative;
 	margin: 0 auto;
@@ -37,8 +42,13 @@ light blue: #1c5380
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 100%;
-	padding: 40px 40px 0px 40px;
+	padding: 20px 30px 0px 30px;
 }
+
+#instalogo img{
+	width: 250px;
+}
+
 
 .inline-block {
 	display: inline-block;
