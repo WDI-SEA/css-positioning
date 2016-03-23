@@ -58,16 +58,17 @@ footer a:visited {
 	text-align: center;
 	float: right;
 	padding-top: 1%;
+	font-weight: bold;
 }
 
 #login-button a:link {
     text-decoration: none;
-    color: gray;
+    color: #95b1c7;
 }
 
 #login-button a:visited {
     text-decoration: none;
-    color: gray;
+    color: #95b1c7;
 }
 
 #logo-right {
