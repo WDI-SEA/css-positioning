@@ -21,12 +21,13 @@ body {
 
 .instagram-logo {
   float: left;
+  margin-top: 15px;
 }
 
-.button{
+.button {
   background-color: #1c5380;
-  margin: 2em 0px 0px 12%;
-  border-color: #315772;
+  margin: 3.2em 0px 0px 12%;
+  border-color: #06365f;
   border-radius: 10%;
   padding: 0px;
 }
@@ -35,9 +36,9 @@ a:link , a:visited {
   text-decoration: none;
 }
 
-.button{
+/*.button{
   border-color: #06365f;
-}
+}*/
 
 .button-text {
   margin: 5px 10px;
@@ -72,6 +73,7 @@ a:link , a:visited {
 
 .mobile-store-icons {
  margin-top: 25px;
+ padding: 5px 15px;
 }
 
 .footer {
@@ -93,4 +95,5 @@ a:link , a:visited {
   margin: -1.5em 55px;
   padding-left: 4px;
   float: right;
+  display: inline-block;
 }
