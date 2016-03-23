@@ -9,20 +9,22 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
 /* HEADER STYLING */
+
 .header {
   background: -webkit-linear-gradient(#6D90AD, #1c5380);
-  /*background-color: #1c5380;*/
   height: 270px;
 }
 
-.inline-block {
-  display: inline-block;
-}
+
+/* INSTAGRAM LOGO AND LOGIN BUTTON */
 
 .instagram-logo {
   float: left;
   margin-top: 15px;
+  display: inline-block;
 }
 
 .button {
@@ -37,19 +39,19 @@ a:link , a:visited {
   text-decoration: none;
 }
 
-/*.button{
-  border-color: #06365f;
-}*/
-
 .button-text {
   margin: 5px 10px;
   color: white;
+  display: inline-block;
 }
 
 .brand-section {
   margin-left:38%;
   padding: 5em .7em;
 }
+
+
+/* MAIN CONTENT AREA */
 
 .description-text {
   float: right;
@@ -80,6 +82,9 @@ a:link , a:visited {
  margin-top: 25px;
  padding: 5px 15px;
 }
+
+
+/* FOOTER */
 
 .footer {
   text-align: center;
