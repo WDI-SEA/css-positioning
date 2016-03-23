@@ -24,7 +24,7 @@ li {
 #container {
 	margin: 0 auto;
 	position: relative;
-	padding: 50px 100px;
+	padding: 75px 100px 30px 100px;
 }
 #left-column {
 	float: left;
@@ -43,7 +43,7 @@ li {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	height: 240px;
+	height: 260px;
 	width: 100%;
 	background: linear-gradient(#1c5380, #06365f);	
 	z-index: -1;
@@ -61,12 +61,19 @@ li {
 	width: 100px;
 	float: right;
 	margin: 30px 5px 0px 0px;
-	border-radius: 5px;
-	text-align: left;
+	padding: 0;
+	border-radius: 3px;
 	color: #ededed;
 }
 #login img {
+	display: inline-block;
 	margin: 10px 10px 10px 10px;
+}
+#login p {
+	display: inline-block;
+	float: right;
+	margin: 0;
+	padding: 10px 5px 0px 0px;
 }
 #frame {
 	position: absolute;
@@ -82,11 +89,11 @@ li {
 	position: relative;
 }
 #content-text {
-	padding: 10px 20px 0px 30px;
+	padding: 20px 20px 0px 30px;
 	width: 440px;
 }
 #apps img {
-	margin: 20px 0px 0px 20px;
+	margin: 20px 10px 0px 20px;
 	display: inline-block;
 }
 #footer {
