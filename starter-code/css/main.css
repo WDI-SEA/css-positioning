@@ -43,7 +43,7 @@ body {
 #copywrite {
 	color:grey;
 }
- .footer{
+ #footer{
  	Display:inline;
 
  }
@@ -57,7 +57,8 @@ display: inline;
 }
 #Log-in{
 	position: absolute;
-    right: 180px;
-    top: 20px;
-    color:#1c5380;
+    right: 189px;
+    top: 37px;
+    color: #1c5380;
+    background-color: #C4D0D9;
 }
