@@ -38,7 +38,7 @@
  }	
 
  #login-button {	
- 	height: 30px;
+ 	height: 25px;
  	width: 60px;
  	background-image: url('../images/home.png');
  	background-repeat: no-repeat;
@@ -75,10 +75,11 @@
  #footer ul li {	
  	text-decoration: none;
  	display:inline;
- 	padding-left: 10px;
+ 	
  } 	
 
- #footer span {
+ #footer strong {
  	color: #cbcbcb;
+ 	padding-left: 15px;
 
  }
