@@ -16,7 +16,7 @@ body {
 	font:inherit;
 }
 #right-box{
-	background: url(images/frame.png);
+	background: url("images/frame.png");
 	width: 650px;
 	float:right;
 	margin-right:90px;
