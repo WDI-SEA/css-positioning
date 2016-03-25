@@ -10,24 +10,64 @@ body {
   background: linear-gradient(to bottom, #06365f 25%, #06365f 40%, #ffffff 15%, #ffffff 60%) fixed;
 }
 
-#container {
-	width: 960px;
-	margin: 0 auto;
-	margin-top: 50px;
-	position: relative;
+.inline-block {
+	display: inline-block;
 }
 
-#iPhone {
-	margin-right: 20px;
-	position: relative;
-	float: left;
+#left-col {
+	width: 40%;
+	display: inline-block;
+	margin-right: 40px;
 }
 
-.mainText {
-	position: relative;
+#left-col > img {
 	float: right;
-	text-align: center;
-	background: url('../images/frame.png') no-repeat center;
+	margin-top: 145px;
+}
+
+#right-col {
+	width: 43%;
+	display: inline-block;
+}
+
+.row {
+	width: 100%;
+	display: block;
+	margin-bottom: 30px;
+}
+
+#button-text {
+	background: url(../images/home.png);
+	width: 65px;
+	text-align: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: -1px;
+	display: block;
+}
+
+#brand-image {
+}
+
+#home-button {
+	background: url(../images/bgtile.png);
+	padding: 5px 10px 5px 10px;
+	border-radius: 3px;
+	border: none;
+	float: right;
+	margin-right: 20px;
+	margin-top: 30px;
 }
 
 
+#button-row {
+	margin-left: 30px;
+}
+
+#main-content {
+	background: url(../images/frame.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
+	padding: 25px;
+}
