@@ -9,7 +9,7 @@ There's a bit of starter code, so you can jump right into it.
 The provided template contains all the files, images, and text content needed to create the page. The text is in the `index.html`, and the color palette is in `main.css`. In addition, you'll want to setup the BrowserSync server and CSS linters by setting up the following:
 
 * Run `npm install` to install dependencies
-* Run `npm test` to run linters
+* Run `npm run lint:css` to lint your CSS
 * Run `npm start` to start the BrowserSync server
 
 ##Requirements
