@@ -4,6 +4,14 @@ One of the best ways to sharpen your CSS skills is to try to recreate an existin
 
 There's a bit of starter code, so you can jump right into it.
 
+##Getting Started
+
+The provided template contains all the files, images, and text content needed to create the page. The text is in the `index.html`, and the color palette is in `main.css`. In addition, you'll want to setup the BrowserSync server and CSS linters by setting up the following:
+
+* Run `npm install` to install dependencies
+* Run `npm test` to run linters
+* Run `npm start` to start the BrowserSync server
+
 ##Requirements
 
 * Use display, clear, and floats to position elements on the page
@@ -20,10 +28,6 @@ There's a bit of starter code, so you can jump right into it.
   * Login button
   * Blue gradient (hint, `background-repeat`)
 * Get the page as close to the deliverable as possible.
-
-####Starter code
-
-The starter-code contains all the files, images, and text content needed to create the page. The text is in the `index.html`, and the color palette is in `main.css`
 
 #### Deliverable
 
