@@ -40,3 +40,9 @@ Please find a screenshot of the expected result below:
 ## Additional Resources
 
 * [CSS Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
