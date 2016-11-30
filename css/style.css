@@ -112,14 +112,18 @@ p{
   height: 22px;
   display: inline-block;
   position: relative;
-  top: 4px;
+  /*top: 4px;*/
+  top: 25%;
+  left: 10%;
 }
 
 .login-text{
   display: inline-block;
   position: relative;
-  top: -3px;
-  margin-left: 5px;
+  /*top: -3px;
+  margin-left: 5px;*/
+  top: 10%;
+  left: 20%
 }
 
 .about{
@@ -160,14 +164,16 @@ p{
   margin-left: 10px;
 }
 
-footer{
+.footer{
   margin: 0 auto;
-  width: 665px;
+  /*width: 665px;*/
+  text-align: center;
   margin-top: 40px;
-  color: #1c5380;
+  color: #527CA5;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 9px;
+  /*font-size: 9px;*/
+  /*display: block;*/
 }
 
 grey{
@@ -177,4 +183,14 @@ grey{
 .bottom{
   display: inline-block;
   padding: 2px 8px;
+  color: #527CA5;
+  text-decoration: none;
+  font-size: 12px;
+  /*width: 60px;*/
+}
+
+.bottom a{
+  color: #527CA5;
+  text-decoration: none;
+  /*width: 60px;*/
 }
