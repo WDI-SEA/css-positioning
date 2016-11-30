@@ -79,3 +79,12 @@ h1 {
   top: 630px;
   left: 340px
 }
+.footer {
+  color: #7095B3;
+  display: inline-block;
+  margin: 20px 10px;
+}
+.fade {
+  display: inline-block;
+  color: rgba(194, 194, 194, 0.8);
+}
