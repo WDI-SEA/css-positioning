@@ -1,11 +1,110 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	text-align: center;
+}
+
+.blue-bkg {
+	z-index: 0;
+	background: linear-gradient(#527fa4, #305f87);
+	height: 230px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+main {
+	width: 900px;
+	z-index: 1;
+	position: relative;
+	margin: 0 auto;
+	top: 75px;
+}
+
+main img{
+	display: inline-block;
+	float: left;
+}
+
+aside {
+	margin-left: 45px;
+	float: left;
+	width: 537px;
+}
+
+aside img {
+	margin-left: 3px;
+}
+
+section {
+	background: url(../img/frame.png);
+	background-size: 100% 284px;
+	background-repeat: no-repeat;
+	max-width: 105%;
+	display: block;
+	float: left;
+	margin-top: 20px;
+	text-align: left;
+	padding: 8px 42px 25px 42px;
+}
+
+.button {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+	background: linear-gradient(#6992b2, #3d719a);
+	box-shadow: 0 0 4px #0f4470;
+	border-top: 1px solid #799ebb;
+	float: left;
+	padding: 7px 11px 9px 8px;
+	margin-top: 15px;
+	margin-right: 9px;
+	position: absolute;
+	right: 0;
+}
+
+.button img {
+	padding-right: 6px;
+}
+
+.badge {
+	margin: 18px 20px 0px 0px;
+}
+
+h1 {
+	font-size: 27px;
+	color: #073760;
+}
+
+p {
+	color: #3c3c3c;
+	line-height: 23px;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+footer ul {
+	list-style: none;
+    padding-left: 0;
+}
+
+footer li {
+	display: inline-block;
+	text-transform: uppercase;
+	color: #497aa0;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 13px;
+}
+
+.copyright {
+	color: #b4b4b4;
 }
