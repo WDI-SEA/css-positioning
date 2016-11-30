@@ -9,3 +9,65 @@ body {
   font-size: 16px;
   margin: 0;
 }
+.top-background {
+  height: 300px;
+  background-color: blue;
+}
+.lower-background {
+  height: 600px;
+  background-color: white;
+}
+.phones {
+  position: absolute;
+  /*z-index: 1;*/
+  bottom: 100px;
+  left: 100px;
+  top: 230px;
+}
+.brand {
+  position: absolute;
+  bottom: 500px;
+  left: 450px;
+}
+.home {
+  position: absolute;
+  bottom: 530px;
+  left: 800px;
+}
+.android {
+  position: absolute;
+  bottom: 100px;
+  left: 700px;
+}
+.iphone {
+  position: absolute;
+  bottom: 100px;
+  left: 500px;
+}
+.frame {
+  position: absolute;
+  bottom: 200px;
+  left: 450px;
+}
+.content {
+  position: absolute;
+  bottom: 170px;
+  left: 460px;
+  width: 550px;
+}
+.content2 {
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+}
+/*.support {
+  width: 30%;
+}*/
+section {
+  position: absolute;
+  bottom: 10px;
+}
+span {
+  font-weight: bold;
+  margin: 5px;
+}
