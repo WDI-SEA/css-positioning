@@ -8,4 +8,173 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
+  background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
+  background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
+  background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+b{
+  font-weight: 700;
+  color: black;
+}
+
+p{
+  line-height: 22px;
+}
+
+.container{
+  width: 900px;
+  height: 512px;
+  margin: 0 auto;
+  margin-top: 80px;
+  /*position: absolute;
+  top: 50px;
+  left: 150px;*/
+}
+
+/*.top-background{
+  background-color: rgb(82, 114, 198);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}*/
+
+.phone{
+  background-image: url("../img/phones.png");
+  background-size: cover;
+  height: 512px;
+  width: 318px;
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+}
+
+.right-section{
+  height: 512px;
+  width: 550px;
+  display: inline-block;
+  float: left;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.logo-login{
+  padding: 5px 5px;
+  margin: 10px 0px;
+  width: 540px;
+}
+
+.logo{
+  background-image: url("../img/brand.png");
+  background-size: cover;
+  width: 314px;
+  height: 78px;
+  display: inline-block;
+}
+
+.login{
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 14px;
+  width: 110px;
+}
+
+.home{
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  background-image: linear-gradient(bottom, #43759D, #6892B2);
+  background-image: -o-linear-gradient(bottom, #43759D, #6892B2);
+  background-image: -moz-linear-gradient(bottom, #43759D, #6892B2);
+  background-image: -webkit-linear-gradient(bottom, #43759D, #6892B2);
+  background-image: -ms-linear-gradient(bottom, #43759D, #6892B2);
+  border-color: #315F86;
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  height: 45px;
+  width: 105px;
+  float: right;
+}
+
+.homelogo{
+  background-image: url("../img/home.png");
+  width: 25px;
+  height: 22px;
+  display: inline-block;
+  position: relative;
+  margin: 1px;
+}
+
+.login-text{
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  margin-left: 5px;
+}
+
+.about{
+  background-image: url("../img/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 470px;
+  padding: 40px 40px 0px 40px;
+  color: rgb(102, 107, 105);
+}
+
+.blue{
+  color: #1c5380;
+  font-weight: 600;
+  font-size: 26px;
+  width: 70%;
+}
+
+.appstore{
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.ios{
+  background-image: url("../img/badge-iphone.png");
+  background-size: cover;
+  width: 164px;
+  height: 50px;
+  display: inline-block;
+}
+
+.google{
+  background-image: url("../img/badge-android.png");
+  background-size: cover;
+  width: 153px;
+  height: 51px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+footer{
+  margin: 0 auto;
+  width: 665px;
+  margin-top: 40px;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+grey{
+  color: rgb(142, 147, 145);
+}
+
+.bottom{
+  display: inline-block;
+  padding: 2px 8px;
 }
