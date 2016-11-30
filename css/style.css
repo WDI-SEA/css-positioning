@@ -9,11 +9,11 @@ body {
   font-size: 16px;
   margin: 0;
   background-repeat: no-repeat;
-  background-image: linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
-  background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
-  background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
-  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
-  background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #507EA3 100%);
+  background-image: linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #527CA5 100%);
+  background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #527CA5 100%);
+  background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #527CA5 100%);
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #527CA5 100%);
+  background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #527CA5 100%);
   font-family: 'Open Sans', sans-serif;
 }
 
