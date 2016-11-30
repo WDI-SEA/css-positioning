@@ -14,9 +14,9 @@ body {
   background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 50%, #315F86 50%, #527CA5 100%);
   background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 40%, #315F86 40%, #527CA5 100%);
 }
-.top-background {s
-  height: 600px;
-  /*background-color:   #1c5380;*/
+.top-background {
+  height: 300px;
+  background-color:   #1c5380;
 }
 /*.lower-background {
   height: 600px;
