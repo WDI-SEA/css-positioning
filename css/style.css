@@ -108,3 +108,7 @@ footer li {
 .copyright {
 	color: #b4b4b4;
 }
+
+a {
+	text-decoration: none;
+}
