@@ -21,10 +21,11 @@ body {
   text-align: right;
   background: #1c5380;
   background: linear-gradient(#6A8EAD, #4A759A);
-  }
 }
 #login {
   position: absolute;
+  right: 10px;
+  top: -6px;
   font-weight: bold;
   color: white;
 
@@ -38,7 +39,7 @@ body {
 
   background-color: #1c5380;
   height: 275px;
-  background: url(/img/bgtile.png);
+  background: url(../img/bgtile.png);
   background-repeat: repeat-x;
 }
 #phones{
