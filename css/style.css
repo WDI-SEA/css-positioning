@@ -19,11 +19,16 @@ body {
   border: 1px solid #06365f;
   border-radius: 4px;
   text-align: right;
-  /*background: url(/img/bgtile.png);
-  background-repeat: repeat-x;*/
+  background: #1c5380;
+  background: -moz-linear-gradient(#1c5380, #06365f);
+  background: linear-gradient(#1c5380, #06365f);
+  }
 }
-#button p {
-  margin: 10;
+#login {
+  position: absolute;
+  font-weight: bold;
+  color: white;
+
 }
 #home{
   position: absolute;
