@@ -8,4 +8,70 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  /*background-image: url(/img/bgtile.png);*/
+}
+.container {
+  position: relative;
+}
+
+}
+.clearfix {
+  clear:both;
+}
+.topBox {
+  background: linear-gradient(#4F7CA1, #315F87);
+  display: block;
+  height: 280px;
+  z-index: -1;
+}
+.phone {
+  position: absolute;
+  top: 100px;
+  left: 160px;
+}
+.logo {
+  position: absolute;
+  top: 100px;
+  left: 570px;
+
+}
+.frame {
+  position: absolute;
+  bottom: -100px;
+  left: 570px;
+}
+.text {
+  position: absolute;
+  left: 600px;
+  width: 450px;
+  top: 220px;
+}
+.text p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.bold {
+  font-weight: bolder;
+}
+h1 span {
+  display: block;
+}
+h1 {
+  color: #06365F;
+}
+.login {
+  width: 100px;
+  position: absolute;
+  right: 210px;
+  bottom: 220px;
+}
+.login p {
+  margin-left: 5px;
+  display: inline-block;
+  color: white;
+}
+.bottom {
+  position: absolute;
+  top: 630px;
+  left: 340px
 }
