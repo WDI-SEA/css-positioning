@@ -37,7 +37,7 @@ body {
 }
 .frame {
   position: absolute;
-  bottom: -100px;
+  top: 200px;
   left: 570px;
 }
 .text {
@@ -64,7 +64,7 @@ h1 {
   width: 100px;
   position: absolute;
   right: 210px;
-  bottom: 220px;
+  top: 110px;
   border: 1px solid;
   border-radius: 5px;
   border-color: #2F5F87;
