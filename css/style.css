@@ -8,4 +8,83 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-image: url("../img/bgtile.png");
+  background-repeat: repeat-x;
+}
+.main{
+	text-align: center;
+	margin-top: 100px;
+}
+.phone{
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 35px;
+}
+.content{
+	display: inline-block;
+	height: 500px;
+	vertical-align: bottom;
+}
+.con_head{
+	height: 80px;
+
+
+}
+.log{
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+	background-color: rgba(255,255,255,0.2); 
+	border: 1px solid rgba(0,0,0,0.2);
+
+}
+.home{
+	vertical-align: text-bottom;
+	margin-right: 5px;
+}
+.brand{
+	margin-right: 100px; 
+	vertical-align: middle;
+}
+article{
+	background-image: url("../img/frame.png");
+	background-repeat: no-repeat;
+	width: 504px; 
+	height: 360px;
+	text-align: left;
+}
+.article{
+	padding: 10px 30px;
+}
+h2{
+	color: #05325b;
+}
+.con_foot{
+	height: 60px;
+}
+.bold{
+	font-weight: bold;
+	color: black;
+}
+.app{
+	margin-right: 15px;
+}
+a{
+  color: #5985a8;
+  text-decoration: none; 
+  font-weight:900;
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+
+}
+p{
+	line-height: 1.5;
+}
+span{
+	color: #b6b6b7;
+}
+footer{
+	margin: 60px auto;
+	text-align: center;
 }
