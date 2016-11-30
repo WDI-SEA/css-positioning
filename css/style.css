@@ -3,35 +3,40 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 40%, #315F86 40%, #527CA5 100%);
+  background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 40%, #315F86 40%, #527CA5 100%);
+  background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 55%, #315F86 55%, #527CA5 100%);
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 50%, #315F86 50%, #527CA5 100%);
+  background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 40%, #315F86 40%, #527CA5 100%);
 }
 .top-background {
-  height: 300px;
-  background-color: blue;
+  height: 600px;
+  /*background-color:   #1c5380;*/
 }
-.lower-background {
+/*.lower-background {
   height: 600px;
   background-color: white;
-}
+}*/
 .phones {
   position: absolute;
   /*z-index: 1;*/
   bottom: 100px;
   left: 100px;
-  top: 230px;
+  top: 200px;
 }
 .brand {
   position: absolute;
-  bottom: 500px;
+  bottom: 525px;
   left: 450px;
 }
 .home {
   position: absolute;
-  bottom: 530px;
+  bottom: 550px;
   left: 800px;
 }
 .android {
@@ -51,9 +56,9 @@ body {
 }
 .content {
   position: absolute;
-  bottom: 170px;
+  bottom: 200px;
   left: 460px;
-  width: 550px;
+  width: 450px;
 }
 .content2 {
     position: absolute;
