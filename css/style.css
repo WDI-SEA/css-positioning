@@ -39,7 +39,16 @@ body {
   vertical-align: middle;
 }
 
-.frame {
+.text {
+  position: absolute;
+  top: 30%;
+  right: 17%;
+  width: 35%;
+  color: #1c5380;
+  z-index: 999;
+}
+
+.framepic {
   position: absolute;
   top: 30%;
   right: 10%;
@@ -56,5 +65,10 @@ a {
 .foot {
   width: 100%;
   text-align: center;
+  
 
+}
+
+p {
+  color: black;
 }
