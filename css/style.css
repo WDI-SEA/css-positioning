@@ -8,4 +8,123 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  width: 100%;
+  height: 600px;
+}
+
+.blueBackground {
+  width: 100%;
+  height: 275px;
+  background-color: #50779A;
+}
+
+.whiteBackground {
+  width: 100%;
+  height: 650px;
+}
+
+.phones {
+  position: absolute;
+  bottom: 295px;
+  left: 100px;
+  z-index: 1;
+}
+
+.brand {
+  position: absolute;
+  left: 455px;
+  top: 120px;
+}
+
+.frame {
+  position: absolute;
+  left: 455px;
+  bottom: 405px;
+  z-index: 1;
+}
+
+.frameContent {
+  position: absolute;
+  left: 490px;
+  top: 240px;
+  z-index: 2;
+  width: 425px;
+  height: 250px;
+  font-weight: 100;
+  line-height: 150%;
+  font-size: 0.95em;
+  color: #4c4d4c;
+}
+
+.mainText {
+  width: 225px;
+  z-index: 2;
+  color: #1c5380;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 125%;
+
+}
+
+.appleButton {
+  z-index: 2;
+  position: absolute;
+  top: 1005px;
+  left: 40px;
+}
+
+.googleButton {
+  z-index: 2;
+  position: absolute;
+  top: 1005px;
+  left: 220px;
+}
+
+button {
+  width: 100px;
+  height: 45px;
+  position: absolute;
+  left: 820px;
+  top: 130px;
+  background: linear-gradient(#6A8EAD, #4A759A);
+  background: -webkit-linear-gradient(#6A8EAD, #4A759A);
+  background: -o-linear-gradient(#6A8EAD, #4A759A);
+  color: white;
+  border-radius: 3px;
+  border: 1px solid #525252;
+  box-shadow: 2px 2px 12px #4A759A;
+  font-weight: bold;
+}
+
+.home {
+  color: white;
+  float: left;
+
+}
+
+.login {
+  color: white;
+  float: left;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+footer {
+  position: absolute;
+  top: 670px;
+  left: 250px;
+}
+
+footer p {
+align-items: center;
+display: inline;
+color: #1c5380;
+font-weight: bold;
+margin-right: 10px;
+font-size: 0.75em;
+}
+
+.copywrite {
+  color: grey;
+  margin-left: 10px;
 }
