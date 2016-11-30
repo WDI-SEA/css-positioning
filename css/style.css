@@ -112,13 +112,13 @@ p{
   height: 22px;
   display: inline-block;
   position: relative;
-  margin: 1px;
+  top: 4px;
 }
 
 .login-text{
   display: inline-block;
   position: relative;
-  top: -4px;
+  top: -3px;
   margin-left: 5px;
 }
 
