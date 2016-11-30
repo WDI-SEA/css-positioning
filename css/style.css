@@ -60,10 +60,14 @@ h1 {
   color: #06365F;
 }
 .login {
+  background: linear-gradient(#6A8EAD, #4A759A);
   width: 100px;
   position: absolute;
   right: 210px;
   bottom: 220px;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #2F5F87;
 }
 .login p {
   margin-left: 5px;
