@@ -4,8 +4,55 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-repeat: no-repeat;
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 70%, #315F86 70%, #507EA3 100%);
+  background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 70%, #315F86 70%, #507EA3 100%);
+  background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 70%, #315F86 70%, #507EA3 100%);
+  background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 70%, #315F86 70%, #507EA3 100%);
+  background-image: linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 70%, #315F86 70%, #507EA3 100%);
+  min-height: 1000px;
+}
+.phoneleft {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+
+}
+.clearfix {
+  clear: right;
+}
+footer {
+  position: absolute;
+  top: 600px;
+}
+
+aside{
+  position: absolute;
+  margin-top: 10%;
+  margin-right: 10%;
+  left: 600px;
+  height: 500px;
+  background-color: (255, 255, 255);
+
+}
+footer {
+  margin: auto 15%;
+}
+ul {
+  margin: 10px 10%;
+}
+li {
+  list-style: none;
+  padding: 0 10px;
+  float: left;
+  max-width: 80%;
+  color: #1c5380;
+}
+#gray {
+  color: gray;
 }
