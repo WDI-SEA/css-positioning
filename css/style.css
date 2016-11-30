@@ -9,3 +9,52 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+.topper {
+  width: 100%;
+  height: 400px;
+  background-color: #1c5380;
+}
+
+.phones {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+}
+
+.brand {
+  position: absolute;
+  left: 43%;
+  top: 17%;
+}
+
+.btn {
+  position: absolute;
+  background-color: #1c5380;
+  color: #fff;
+  top: 20%;
+  right: 10%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.frame {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+
+}
+
+a {
+  text-decoration: none;
+  color: #06365f;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.foot {
+  width: 100%;
+  text-align: center;
+
+}
