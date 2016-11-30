@@ -1,0 +1,118 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.bg-gradient {
+  position: relative;
+  top: 0;
+  z-index: -1;
+  background: -webkit-linear-gradient(#06365f, #2B537F); /* Safari */
+  background: -webkit-gradient(#06365f, #2B537F); /* Old Safari */
+  background: -o-linear-gradient(#06365f, #2B537F); /* Opera */
+  background: -moz-linear-gradient(#06365f, #2B537F); /* Firefox */
+  background: linear-gradient(#06365f, #2B537F); /* Standard */
+  height: 300px;
+}
+
+
+.main-img {
+  float: left;
+}
+
+.container {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+.container-main {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.content {
+  margin-left: 40px;
+  float: left;
+  width: 500px;
+}
+
+.content-header {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.login {
+  position: absolute;
+  background: -webkit-linear-gradient(#2B537F, #06365f); /* Safari */
+  background: -webkit-gradient(#2B537F, #06365f); /* Old Safari */
+  background: -o-linear-gradient(#2B537F, #06365f); /* Opera */
+  background: -moz-linear-gradient(#2B537F, #06365f); /* Firefox */
+  background: linear-gradient(#2B537F, #06365f); /* Standard */
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #06365f;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.login span {
+  position: relative;
+  margin-left: 10px;
+  font-size: 16px;
+  top: -4px;
+}
+
+.content-body {
+  background: url("../images/frame.png") no-repeat;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 20px 40px;
+}
+
+.content-body .content-title {
+  color: #06365f;
+}
+
+.content-body p {
+  line-height: 2em;
+}
+
+.download-buttons img {
+  margin: 10px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.links {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  font-size: 12px;
+}
+
+.links li {
+  display: inline-block;
+  padding: 9px;
+  color: #06365f;
+}
+
+.links li:last-child {
+  color: lightgrey;
+  margin-left: 10px;
+  display: inline;
+}
