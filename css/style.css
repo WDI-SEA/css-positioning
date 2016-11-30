@@ -67,7 +67,7 @@ p{
 }
 
 .logo-login{
-  padding: 5px 5px;
+  padding: 5px 0px;
   margin: 10px 0px;
   width: 540px;
 }
@@ -124,9 +124,9 @@ p{
 
 .about{
   background-image: url("../img/frame.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 470px;
+  width: 465px;
   padding: 40px 40px 0px 40px;
   color: rgb(102, 107, 105);
 }
@@ -167,7 +167,7 @@ footer{
   color: #1c5380;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 grey{
