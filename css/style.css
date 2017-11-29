@@ -17,6 +17,9 @@ body {
   margin: 0;
   height: 500px;
 }
+.bold {
+	font-weight: 600;
+}
 
 .heading {
   position: absolute;
