@@ -9,3 +9,97 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+.background {
+  background-image: url("../img/bgtile.png");
+  background-repeat: repeat;
+  width: 100%;
+  margin: 0;
+  height: 500px;
+}
+
+.heading {
+  position: absolute;
+  left: 700px;
+  top: 310px;
+  vertical-align: middle;
+  overflow: auto;
+  width: 100%;
+}
+
+#login {
+  position: relative;
+  left: 60px;
+  top: -30px;
+  padding: 10px;
+  background: linear-gradient(to top, #06365f, lightblue);
+  border-size: 1px;
+  border-color:  rgba(6,54,95, .8);
+}
+
+#homeicon {
+  margin-right: 10px;
+}
+
+#btn {
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	position: relative;
+	top: -4px;
+}
+
+.container {
+  padding: 30px;
+  width: 500px;
+  left: 710px;
+  top: 425px;
+  position: absolute;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, .2);
+  line-height: 25px;
+}
+
+h1 {
+  color: #1c5380;
+  margin: 0;
+}
+
+#toph1 {
+  margin-bottom: 15px;
+}
+
+#bottomh1 {
+  margin-bottom: 30px;
+}
+
+#phones {
+  position: relative;
+  left: 325px;
+  top: -200px;
+  margin: 0;
+}
+
+.footer {
+  margin: 0 auto 30px auto;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  top: -100px;
+}
+
+
+#copywrite {
+  margin-left: 40px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1c5380;
+  padding: 0 8px;
+}
