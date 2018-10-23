@@ -33,9 +33,9 @@ The provided template contains all the files, images, and text content needed to
 
 ## Deliverable
 
-Please find a screenshot of the expected result below:
+Please find a screenshot of the expected result below. Note that from time to time, [Instagram](https://www.instagram.com/) updates the look and feel of its home page. If in doubt, [visit their site](https://www.instagram.com/) and make sure the screenshot is up to date. Let your instructor know if it isn't!
 
-![Instagram lab Screenshot](https://i.imgur.com/DQ9fk1u.png)
+![Instagram lab Screenshot](https://res.cloudinary.com/briezh/image/upload/v1540324273/Screen_Shot_2018-10-23_at_12.40.34_PM_ustisl.png)
 
 ## Additional Resources
 
