@@ -7,10 +7,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.12.5",
+    "browser-sync": "^2.26.3",
     "csslint": "^0.10.0"
   },
   "dependencies": {
-    "npm": "^6.2.0"
+    "lodash": "^4.17.5",
+    "npm": "^6.4.1"
   }
 }
