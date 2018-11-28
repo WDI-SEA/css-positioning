@@ -6,6 +6,106 @@ light blue: #1c5380
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
+background-image: repeating-linear-gradient(to bottom,#386386, #FFFFFF,#FFFFFF);
+}
+
+.wrapper{
+	position: relative;
+	width: 800px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.phone {
+	position: absolute;
+	top: 10%;
+	left: 10px;
+	margin: 0 auto;
+}
+
+.banner{
+	position: absolute;
+	top: 10%;
+	left: 45%;
+	margin: 0 auto;
+}
+
+.login{
+	background-color:#386386;
+	position: absolute;
+	top: 12%;
+	left: 90%;
+	height: 20px;
+	width: 80px;
+	padding: 10px;
+	margin: 0 auto;
+	border: 1px solid white;
+	box-shadow: 1px 1px; 
+	border-radius: 5px; 
+}
+
+.login. img{
+	position: relative;
+	display: block;
+	padding-left:5px;
+}
+button{
+	font-size: 15px;
+	color: white;
+	background-color: transparent;
+	border: transparent;
+}
+
+#login-but{
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	height: 40px;
+	width: 80px;
+}
+
+.frame{
+	position: absolute;
+	top:20%;
+	left:45%;
+	margin: 0 auto;
+}
+.content{
+	position: absolute;
+	top: 22%;
+	left: 50%;
+	margin: 0 auto;
+}
+
+.content h1{
+	color: #06365f;
+}
+
+.content p{	
+	color: black;
+	line-height: 20px;
+}
+
+.icons{
+	position: absolute;
+	top: 53%;
+	left: 52%;
+	margin: 0 auto;
+}
+
+.ending{
+	color: #1c5380;
+	font-weight: bold;
+	position: absolute;
+	top: 65%;
+	left: 5%;
+	width: 100%;
+	text-align: center;
+}
+
+#foot{
+	color: gray;
+	font-weight: bold;
 }
