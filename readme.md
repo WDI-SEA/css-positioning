@@ -10,7 +10,9 @@ The provided template contains all the files, images, and text content needed to
 
 #### Optional npm modules
 
-In addition, you may want to setup the BrowserSync server and CSS linters by setting up the following:
+If you haven't installed `node` and `npm` yet, please skip this section.
+
+Optionally, you may want to setup the BrowserSync server and CSS linters by setting up the following:
 
 * Run `npm install` to install dependencies
 * Run `npm run lint:css` to lint your CSS
