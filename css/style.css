@@ -5,7 +5,102 @@ light blue: #1c5380
 */
 
 body {
+
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-image:  url("../img/bgtile.png");
+  background-size: 100% 40%;
+  background-repeat:repeat-x;
+  display:flex;
+flex-direction: column;
+  align-items: center;
+}
+
+
+
+.general{
+  display: flex;
+  flex-direction: row;
+  width:50%;
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.fist-part{
+  margin-right: 40px;
+}
+
+.explain{
+  position: relative;
+  height: 364px;
+}
+.text{
+  position: absolute;
+  top: 15%;
+  left:10%;
+  right:10%;
+}
+
+.log-entry{
+  display:flex;
+  flex-direction:row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+button{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.3) , rgba(255, 0, 0, 0)), url("../img/bgtile.png");
+  margin:10px;
+  height: 40px;
+  width: 90px;
+  background-color: #1c5380;
+  border: 1px solid #1C39AC;
+  color:white;
+  display:flex;
+  align-items: center;
+  font-size: 12px;
+
+}
+
+#house{
+  margin-right:4px;
+}
+
+h1{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#apple{
+  margin-right: 15px;
+}
+
+.purpose{
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-right:15px;
+}
+
+li{
+  margin: 0 15px;
+  color:#003569;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+}
+
+#insta{
+  color:#999;
 }
