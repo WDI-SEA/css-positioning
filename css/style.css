@@ -1,11 +1,51 @@
 /*
-Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
 body {
+  background-image: linear-gradient(#1c5380, white, white);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  color: #1c5380;
+  
+}
+
+p {
   font-size: 16px;
-  margin: 0;
+}
+#brand {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  }
+
+#phones {
+  position: relative;
+  left: 20%;
+}
+#frame {
+  position: absolute;
+  text-align: right;
+  top: 30%;
+  left: 50%;
+}
+
+#info {
+  position: absolute;
+  top: 30%;
+  left: 50%; 
+  width: 400px;
+  text-align: left;
+  transform: translate(20%);
+}
+
+.store {
+  text-align: center;
+}
+.footer {
+  color: #1c5380;
+  text-align: center;
 }
