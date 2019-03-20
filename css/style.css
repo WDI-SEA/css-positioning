@@ -3,9 +3,88 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
+	background-image: url("../img/bgtile.png");
+	background-repeat: repeat-x;
+	display: flex;
+	justify-content: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: 0;
+}
+
+h2 {
+	color: #06365f;
+}
+
+button {
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 800;
+	color: #ffffff;
+	background-image: linear-gradient(#8ebee6, #1c5380);
+	float: left;
+	border-radius: 2px;
+	border: 1px solid #06365f;
+}
+
+/*.frame {
+	display: inline-block;
+	width: 504px;
+	height: 284px;
+}*/
+
+.container {
+  position: relative;
+  text-align: left;
+}
+
+.container h2 {
+	width: 55%;
+}
+.img-text {
+  position: absolute;
+  text-align: left;
+  top: 8px;
+  left: 16px;
+  font-size: 16px;
+	margin 20px;
+	width: 90%;
+}
+
+.phones {
+	display: inline-block;
+	margin: 80px 20px 0 0;
+}
+
+.logo-login {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	display: inline-block;
+	padding: 20px 80px 20px 5px;
+}
+.login {
+	display: inline-block;
+	align-self: flex-end;
+	margin: 20px 0;
+}
+
+.right {
+	margin: 80px 0 0 20px;
+}
+
+.iphone {
+	margin: 15px 20px;
+}
+
+.android {
+	margin: 15px 0;
 }
