@@ -8,4 +8,71 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-image: url(../img/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+
+.main-img{
+	float: left;
+}
+
+.container{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+ }
+
+ .container-main{
+ 	margin: 0 auto;
+ 	width: 900px;
+ }
+.content-header{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.content-body{
+	background: url("../img/frame.png") no-repeat;
+	padding: 20px 40px;
+}
+
+.links li{
+	display: inline-block;
+	padding: 8px;
+	font-size: 12px;
+}
+
+.footer{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 50px;
+}
+
+.content{
+	float: right;
+	margin-left: 40px;
+	width: 500px;
+}
+
+.content-header{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.login{
+	position: absolute;
+	right: 0;
+}
+
+.login span{
+	position: relative;
+	margin-left: 10px;
+	font-size: 16px;
+	top: -4px;
+}
+
+.download-buttons img{
+	margin: 10px;
 }
