@@ -16,10 +16,10 @@ body {
 	/*border: 1px solid green;*/
 	width: 840px;
 	height: 600px;
-	margin: -300px -420px;
+	margin: 0 -420px;
 	position: absolute;
 	left:50%;
-	top:50%;
+	top:95px;
 
 }
 .topStuff{
