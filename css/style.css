@@ -1,9 +1,6 @@
-/*
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
+
   background-image: linear-gradient(#1c5380, white, white);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -18,7 +15,7 @@ p {
 }
 #brand {
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 50%;
   }
 
@@ -33,6 +30,22 @@ p {
   left: 50%;
 }
 
+#log-in {
+  background-color: #1c5380;
+  position: absolute;
+  text-align: right;
+  top: 15%;
+  left: 75%;
+  width: 100px;
+  height: 50px;
+
+}
+
+#home {
+  position: absolute;
+  top: 16%;
+  left: 76%; 
+}
 #info {
   position: absolute;
   top: 30%;
