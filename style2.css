@@ -1,0 +1,100 @@
+* {
+  font-family: Arial, sans-serif;
+}
+div {
+  border: 1px solid black;
+}
+h2 {
+  color: rgb(60,60,60);
+}
+p {
+  color: rgb(160,160,160);
+  font-size: 12px;
+  margin: 3px;
+}
+.marquee {
+  background-image: url("marquee_775w.jpg");
+}
+.secsubtitletext {
+  color: rgb(90,90,90);
+}
+.check {
+  display: inline-block;
+  width: 49%;
+}
+.sectilepartial {
+  display: inline-block;
+}
+.recdetail {
+  text-align: center;
+  height: 300px;
+}
+.cityname {
+  padding-top: 180px;
+}
+#paris {
+  background-image: url("img/paris.jpg");
+}
+#tokyo {
+  background-image: url("img/tokyo.jpg");
+}
+#london {
+  background-image: url("img/london.jpg");
+}
+#losangeles {
+  background-image: url("img/losangeles.jpg");
+}
+#barcelona {
+  background-image: url("img/barcelona.jpg");
+}
+#newyork {
+  background-image: url("img/newyork.jpg");
+}
+#havana {
+  background-image: url("img/havana.jpg");
+}
+#sydney {
+  background-image: url("img/sydney.jpg");
+}
+.listyourhome {
+  background-image: url("img/listyourhome.jpg");
+}
+.picbutton {
+  color: grey;
+}
+.tilerated {
+  display: inline-block;
+}
+.ratedpicholder {
+}
+.hotspring {
+  background-image: url("img/rated-hotspring.jpg");
+  background-color: blue;
+}
+.tanama {
+
+}
+.horseback {
+
+}
+.monmartre {
+
+}
+.exptype {
+  color: darkgrey;
+  font-size: 12px;
+}
+.exptitle, .expprice {
+  color: rgb(90,90,90);
+  font-size: 14px;
+}
+.exptitle {
+  font-weight: bold;
+}
+.expprice {
+}
+.exprating {
+  color: teal;
+  font-weight: bold;
+  font-size: 12px;
+}
