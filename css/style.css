@@ -8,4 +8,39 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-image: url("../img/bgtile.png");
+  background-size: 100% 40%;
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+	color: #06365f;
+}
+.login {
+	background-color: #1c5380;
+	padding: 9px 20px;
+	float: right;
+}
+#light-blue {
+	background-color: #1c5380;
+}
+#middle-block {
+
+}
+
+img {
+
+}
+#bgtile {
+
+}
+#brand {
+	float: center;
+}
+p {
+	text-align: center;
+	padding-top: 150px;
+	color: #1c5380;
 }
