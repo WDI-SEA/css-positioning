@@ -3,9 +3,96 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+header {
+  height: 250px;
+  background-image: linear-gradient(#1c5380,#06365f);
+}
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  color: #06365f;
+}
+
+footer {
+  width:100%;
+  text-align: center;
+}
+.home {
+}
+.button {
+  background-color: #1c5380; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  margin: 20px 50px 20px 10px;
+}
+
+.brand {
+ display: inline-block;
+}
+.headerempty {
+  width: 30%
+}
+
+.headerbox {
+  float:right;
+  margin-top: 175px;
+  width: 50%;
+}
+
+.container {
+  width:100%;
+}
+
+.grid {
+
+}
+
+.phone {
+ display: inline-block;
+ float: left;
+ width: 30%;
+ margin: -100px 30px 30px 30px;
+ height: auto;
+}
+
+.apps {
+  display: inline-block;
+  margin: 30px;
+}
+
+.iphone {
+  margin: 0 10px 0 0;
+}
+
+.android {
+  margin: 0 10px 0 0;
+}
+.text {
+  /* background-image: image("img/frame.png");
+  background-repeat: no-repeat; */
+  position:relative;
+  display:inline-block;
+  margin: 30px 30px 30px 30px;
+  width: 60%;
+}
+
+.clearfix:after{
+  visibility:hidden;
+  display:block;
+  content: " ";
+  clear: both;
+  height:0;
+  font-size: 0;
 }
