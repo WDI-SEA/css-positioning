@@ -34,11 +34,19 @@ p {
 @media (max-width: 860px) {
 	.phoneImage { 
 		display: none;
+		src: "";
+		width: 0;
 	}
 }
 
+.gridContainer {
+	display: grid;
+	grid-template-columns: 360px 508px;
+}
+
 .phoneImage {
-	display: table-cell;
+	grid-column-start: 1;
+	grid-column-end: 2;
 	height: 512px;
 	vertical-align: middle;
 	text-align: center;
@@ -48,7 +56,8 @@ p {
 
 .logoAndCaption {
 	width: 508px;
-	display: table-cell;
+	grid-column-start: 2;
+	grid-column-end: 3;
 	text-align: center;
 	margin: 2px;
 	padding: 8px;
