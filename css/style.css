@@ -3,9 +3,66 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: 0;
+  margin: auto;
+}
+.col-2-header {
+  font-family: 
+}
+.header {
+  grid-area: header;
+  border: 1px solid red;
+  justify-items: stretch;
+  padding: 10%;
+  background-color: rgb(34, 114, 201, 0.8);
+  margin-bottom: auto;
+}
+.container {
+  margin-top: -15%;
+  border: 2px solid yellow;
+  display: grid;
+  justify-content: stretch;
+  grid-column-gap: 10px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+      "header header"
+      "main sidebar"
+      "main sidebar"
+      "footer footter";
+}
+.column-1 {
+  grid-area: main;
+  position: relative;  
+  float: left;
+  border: 1px solid red;
+}
+.column-2 {
+  grid-area: sidebar;
+  position: right;  
+  background: url(/img/frame.png);
+  background-repeat: no-repeat;
+  float: left;
+  border: 1px solid blue;
+}
+
+.text-container {
+ 
+  background: url(/img/frame.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20px;
+  
+  text-align: center;
+  padding-top: 10%;
+  padding-left: 0px;
+  padding-right: 20px;
+  
+}
+
+.footer {
+  grid-area: footer;
+  padding: auto;
 }
