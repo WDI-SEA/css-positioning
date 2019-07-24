@@ -3,9 +3,109 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background: white;
+  background: -moz-linear-gradient(bottom, white 55%, #06365f 45%, #1c5380 100%);
+  background: -webkit-linear-gradient(bottom, white 55%, #06365f 45%, #1c5380 100%);
+  background: linear-gradient(to top, white 55%, #06365f 45%, #1c5380 100%);
+}
+button{
+  text-align: center;
+  box-shadow: 2px 2px 5px #06365f;
+  height: 40px;
+  border: none;
+  color: white;
+  background: #06365f;
+  background: -moz-linear-gradient(bottom, #06365f, #1c5380);
+  background: -webkit-linear-gradient(bottom, #06365f, #1c5380);
+  background: linear-gradient(bottom, #06365f, #1c5380);
+}
+h1{
+  color: #06365f;
+  margin-right: 150px;
+  margin-left: 25px;
+}
+p{
+  margin-right: 25px;
+  margin-left: 25px;
+}
+footer{
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: #1c5380;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+button img{
+  margin: auto;
+  margin-right: 3px;
+}
+button a{
+  color: white;
+}
+span{
+  color: grey;
+  text-transform: uppercase;
+}
+
+
+.content{
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.phones{
+  margin: auto;
+  margin-bottom: 0;
+  margin-right: 2%;
+}
+.text{
+  width: 500px;
+  margin: auto;
+  margin-bottom: 0;
+  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.brand{
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+}
+.card{
+  background-color: white;
+  box-shadow: 0 0 8px 2px grey;
+}
+.badges{
+  margin: 0;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
 }
