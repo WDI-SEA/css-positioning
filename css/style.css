@@ -1,11 +1,88 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+body,html{
+	margin:0;
+	padding: 0px, 0px;
+	background-color: white;
 
+}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
 }
+header{
+	/*grid-area: ;*/
+	border: 1px solid black;
+	background-color: #1c5380;
+	padding: 80px;
+	text-align: center;
+}
+h1 {
+	color:#1c5380;
+}
+p {
+	padding: 0 400px;
+	
+	background-color: white;
+}
+.phones{
+	padding-left: 150px;
+	display: grid;
+	
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 100px 1fr 50px 600px 1fr;
+  	grid-template-rows:  70px 100px 300px 50px;
+	grid-template-areas: 
+	" header header header header header"
+	". phone . . ." 
+	". . . words ."
+	"footer footer footer footer footer";
+	
+
+
+}
+.grid-item1{
+	grid-area: header;
+
+
+}
+.grid-item2{
+	grid-area: phone;
+
+}
+.grid-item3{
+	grid-area: words;
+	background-color: white;
+	padding-left: 50px;
+	margin-top: 30px;
+
+}
+.grid-item4{
+	grid-area: footer;
+	padding-top: 160px;
+	padding-left: 300px;
+	color:#1c5380;
+
+
+}
+.login{
+	background-color:#1c5380;
+	border-color: #06365f;
+	color: white;
+	font-size: 14px;
+	margin-left: 50px;
+}
+.content{
+	color:black;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding:20px 20px;
+
+}
+.mainHeader{
+	padding-top: 90px;
+	padding-left: 90px;
+}
+
+
