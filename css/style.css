@@ -4,13 +4,13 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+/*body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: auto auto;
+  margin: auto auto;*/
   /*background-image: url(img/bgtile.png);
   background-position: top;
-  background-repeat: repeat;*/
+  background-repeat: repeat;
   background-image: linear-gradient(#06365f, #fff);
   background-size: contain;
   background-repeat: no-repeat;
@@ -51,4 +51,82 @@ p {
 .bigger {
 	color: #06365f;
 	font-size: 25px;
+}*/
+
+
+
+body {
+
+}
+
+div {
+	/*border: 2px solid orange;*/
+}
+
+.blue-background {
+	background-image: linear-gradient(#06365f, #1c5380);
+	height: 25vw;
+	position: absolute;
+	z-index: -1;
+	width: 100vw;
+}
+
+.grid-container {
+	margin: auto;
+	padding-top: 10vh;
+	width: 60vw;
+	display: grid;
+	grid-template-rows: 1fr 3fr 1fr;
+	grid-template-columns: 1fr 3fr;
+	grid-template-areas: 
+		"phone top-right"
+		"phone middle-right"
+		"phone bottom-right";
+	grid-gap: 3%;
+}
+
+.grid-phone {
+	grid-area: phone; 
+}
+
+.grid-logo{
+	grid-area: top-right;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.grid-text {
+	grid-area: middle-right;
+	background-image: url(../img/frame.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5%;
+}
+
+li {
+display: inline-block;
+}
+
+ul {
+	text-align: center;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.grid-icons {
+	grid-area: bottom-right;
+}
+
+button {
+	background-color: #06365f;
+	color: white;
+	border: 1px solid #1c5380;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+
 }
