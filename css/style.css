@@ -7,5 +7,64 @@ light blue: #1c5380
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: 0;
+  margin: 0px auto;
+  max-width: 100%;
+}
+.foreground {
+  margin: -100px;
+  padding: 20px 90px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 10px;
+  grid-template-areas: "column1 column2";
+  max-width: 100%;
+}
+.top-color {
+  padding: 15%;
+  background-color: #1c5380;
+  background-image: linear-gradient(#1c5380, #06365f);
+}
+.bottom-color {
+  background-color: white;
+  border: 3px solid green;
+  padding: 100px;
+}
+.column1 {
+  grid-area: column1;
+}
+.column2 {
+  grid-area: column2;
+  position: relative;
+  z-index: 2;
+}
+
+.text-content {
+  padding: 0px;
+  max-width: 400px;
+}
+.nav-bar {
+  display: inline-block;
+  text-align: center;
+  margin: 30px auto;
+  width: 100%;
+  word-spacing: 10px;
+}
+.img-parent {
+  display: block;
+  position: relative;
+  bottom: 300px;
+  right: 30px;
+  z-index: -1;
+}
+
+.img-parent img {
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: #1c5380;
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
 }
