@@ -4,8 +4,80 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+a {
+	text-decoration: none;
+}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  padding: 0px;
 }
+button {
+	background-image: linear-gradient(#1c5380, #06365f);
+	background-size: auto;
+	color: white;
+	border-color: #06365f;
+	font-size: 12px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+h1 {
+  color: #1c5380;
+}
+li {
+	display: inline-block;
+	padding: 10px;
+	text-transform: uppercase;
+}
+ul{
+	text-align: center;
+}
+
+.blue-gradient {
+	background-image: linear-gradient(#1c5380, #06365f);
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.copyright {
+	color: rgba(0,0,0,.5);
+	text-transform: none;
+}
+.grid {
+	margin: auto;
+	padding-top: 125px;
+	max-width: 800px;
+	display: grid;
+	grid-template-rows: 1fr 3fr 1fr;
+	grid-template-columns: 1fr 3fr;
+	grid-template-areas: 
+		"phone toprow"
+		"phone middletext"
+		"phone bottomrow";
+	column-gap: 50px;
+}
+.grid-footer {
+	grid-area: bottomrow;
+}
+.grid-header {
+	grid-area: toprow;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.grid-phone {
+	grid-area: phone;
+}
+.grid-text {
+	grid-area: middletext;
+	background-image: url("../img/frame.png");
+	background-size: cover;
+	line-height: 30px;
+  	padding: 20px;
+}
+
