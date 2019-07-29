@@ -1,0 +1,122 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  min-height: 100%;
+}
+
+display: grid;
+	grid-template-rows: 2fr 1fr 3fr 1fr;
+	grid-template-columns: 1fr 2fr;
+	grid-template-areas: 
+		" top-right"
+		"phone header"
+		"phone main"
+		"footer footer";
+	grid-gap: 3%;
+}
+
+
+div {
+	border: 2px solid black;
+}
+
+.grid-container {
+	margin: auto;
+	padding: 10vh;
+	width: 100vh;
+}
+
+header {
+	background-image: linear-gradient(#1c5380,#06365f);
+	height: 35vh;
+	width: 100vw;
+	position: absolute;
+	z-index: -1;
+	grid-area: top-left, top-right;
+}
+
+
+
+.colorscheme {
+	grid-area: header;
+	background-color: #06365f;
+	margin: 0 auto;
+}
+
+.home {
+	grid-area: header;
+	background-color: #06365f;
+	justify-content: flex-end;
+}
+
+button {
+	background-image: linear-gradient(#1c5380,#06365f);
+	color: white;
+	border: none;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+
+
+span {
+
+}
+
+.aside {
+	grid-area: main;
+}
+
+
+
+.brand {
+	grid-area: top-right;
+}
+
+
+.text {
+	grid-area: middle-right;
+	justify-content: flex-end;
+}
+
+.badge {
+	grid-area: bottom-right;
+	display: inline-block;
+}
+
+
+h1 {
+	color: #06365f;
+	display: block;
+	font-size: 24px;
+}
+
+p {
+
+}
+
+footer {
+
+}
+
+ul {
+	text-align: center;
+	text-decoration: none;
+
+
+}
+
+
+
+a {
+	text-transform: uppercase;
+	color: #1c5380;
+	text-decoration: none;
+}
+
